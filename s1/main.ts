@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-console.log("running script 1")
+console.log("running script 1 new")
 
 axios.get('https://api.github.com/users/mapbox')
   .then((response) => {
