@@ -1,14 +1,9 @@
 import axios from 'axios';
 
-console.log("running script 1 new")
-
+console.log("\n\n\n\n")
+console.log("running script 1")
+console.log("\n\n\n\n")
 axios.get('https://api.github.com/users/mapbox')
   .then((response) => {
-    console.log(response.data);
-    console.log(response.status);
-    console.log(response.statusText);
-    console.log(response.headers);
-    console.log(response.config);
+    console.log("http get response code:" + response.status);
   });
-
-
